@@ -1,0 +1,97 @@
+public class File_Scanner { //<>// //<>//
+  public File_Scanner() {
+  }
+
+  public void loadDataFiles() {
+    Scanner tileFile;
+    Scanner objectFile;
+    Scanner shadowFile;
+    String[] lines;
+    lines = loadStrings("TileMap.txt");
+    for (int i = 0; i < lines.length; i++) {
+      tileFile = new Scanner(lines[i]);
+      for (int j = 0; tileFile.hasNext(); j++) 
+        tileCodes[i][j] = tileFile.nextInt();
+    }
+    lines = loadStrings("ObjectMap.txt");
+    for (int i = 0; i < lines.length; i++) {
+      objectFile = new Scanner(lines[i]);
+      for (int j = 0; objectFile.hasNext(); j++) 
+        objectCodes[i][j] = objectFile.nextInt();
+    }
+    lines = loadStrings("ShadowMap.txt");
+    for (int i = 0; i < lines.length; i++) {
+      shadowFile = new Scanner(lines[i]);
+      for (int j = 0; shadowFile.hasNext(); j++) 
+        objectCodes[i][j] = shadowFile.nextInt();
+    }
+  }
+
+  public void loadInitialTextures() {
+    String[] lines;
+    int pos = 0;
+    lines = loadStrings("Pathways.txt");
+    for (int i = 0; !(lines[pos].equals("0")); i++) {
+      initialTiles.add(i, new Tile(loadImage(lines[pos])));
+      pos++;
+    }
+    pos++;
+    for (int i = 0; !(lines[pos].equals("0")); i++) {
+      initialObjects.add(i, new PObject(loadImage(lines[pos])));
+      pos++;
+    }
+    pos++;
+    for (int i = 0; !(lines[pos].equals("0")); i++) {
+      initialSprites.add(i, new Sprite(loadImage(lines[pos])));
+      pos++;
+    }
+    pos++;
+    for (int i = 0; pos < lines.length; i++) {
+      initialShadows.add(i, new Shadow(loadImage(lines[pos])));
+      pos++;
+    }
+  }
+
+  public void instanTiles() {
+    for (int  i = 0; i < initialTiles.size(); i++) {
+      hashMap.put(i+"T", initialTiles.get(i));
+    }
+    for (int  i = 0; i < initialObjects.size(); i++) {
+      hashMap.put((i+1)+"O", initialObjects.get(i));
+    }
+    for (int  i = 0; i < initialSprites.size(); i++) {
+      hashMap.put(i+"SP", initialSprites.get(i));
+    }
+    for (int  i = 0; i < initialShadows.size(); i++) {
+      hashMap.put((i+1)+"SH", initialShadows.get(i));
+  }
+  public void resizeTextures() {
+  //resize tiles
+  for (int i = 0; i < hasMap.length; i++)
+  hashMap.get(i).resize(32, 32); 
+    //resize objects
+    hashMap.get(1).resize(72, 96); 
+    for (int i = 0; i < sprites.length; i++)
+  for (int  j = 0; j < sprites[i].length; j++)
+  sprites[i][j].getTexture().resize(32, 42); 
+    //resize shadows
+    for (int i = 0; i < objects.length; i++)
+  for (int  j = 0; j < objects[i].length; j++)
+  shadows[i][j].getTexture().resize(72, 96);
+}
+  }
+  public void resizeTextures() {
+    for (int  i = 0; i < initialTiles.size(); i++) {
+      initialTiles.get(i).getTexture().resize(32, 32);
+    }
+    for (int  i = 0; i < initialObjects.size(); i++) {
+      initialObjects.get(i).getTexture().resize(72, 96);
+    }
+    for (int  i = 0; i < initialSprites.size(); i++) {
+      initialSprites.get(i).getTexture().resize(32, 42);
+    }
+    for (int  i = 0; i < initialShadows.size(); i++) {
+      initialShadows.get(i).getTexture().resize(72, 96);
+    }
+  }
+}

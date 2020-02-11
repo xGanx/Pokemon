@@ -1,0 +1,50 @@
+Tiles\\Short Grass\\ShortGrassModel1.png
+Tiles\\Short Grass\\ShortGrassModel2.png
+Tiles\\Short Grass\\ShortGrassModel3.png
+Tiles\\Short Grass\\ShortGrassModel4.png
+Tiles\\Brick Walkway\\CornerBrickModelUpLeft.png
+Tiles\\Brick Walkway\\CornerBrickModelUpRight.png
+Tiles\\Brick Walkway\\CornerBrickModelLowLeft.png
+Tiles\\Brick Walkway\\CornerBrickModelLowRight.png
+Tiles\\Brick Walkway\\EdgeBrickModelOrientNorth.png
+Tiles\\Brick Walkway\\EdgeBrickModelOrientEast.png
+Tiles\\Brick Walkway\\EdgeBrickModelOrientSouth.png
+Tiles\\Brick Walkway\\EdgeBrickModelOrientWest.png
+Tiles\\Brick Walkway\\MidBrickModel.png
+Tiles\\Brick Walkway\\SmoothCornerModelUpLeft.png
+Tiles\\Brick Walkway\\SmoothCornerModelUpRight.png
+Tiles\\Brick Walkway\\SmoothCornerModelLowLeft.png
+Tiles\\Brick Walkway\\SmoothCornerModelLowRight.png
+Tiles\\LongGrass\\tallGrass.png
+0
+Objects\\Trees\\StandAloneTree.png
+Objects\\Fences\\WoodenFenceOrientEast.png
+Objects\\Fences\\WoodenFenceOrientWest.png
+Objects\\Fences\\WoodFenceCornerNorth&East.png
+Objects\\Fences\\WoodFenceCornerNorth&West.png
+Objects\\Fences\\WoodFenceCornerSouth&East.png
+Objects\\Fences\\WoodFenceCornerSouth&West.png
+Objects\\Fences\\WoodFenceOrientNorth&South.png
+Objects\\SmallHouse\\fullHouse.png
+0
+Sprites\\MainChar\\MainCharFront.png
+Sprites\\MainChar\\MainCharEast.png
+Sprites\\MainChar\\MainCharBackwards.png
+Sprites\\MainChar\\MainCharWest.png
+Sprites\\MainChar\\MainCharWalkingFront1.png
+Sprites\\MainChar\\MainCharWalkingFront2.png
+Sprites\\MainChar\\MainCharWalkingEast1.png
+Sprites\\MainChar\\MainCharWalkingEast2.png
+Sprites\\MainChar\\MainCharWalkingBackwards1.png
+Sprites\\MainChar\\MainCharWalkingBackwards2.png
+Sprites\\MainChar\\MainCharWalkingWest1.png
+Sprites\\MainChar\\MainCharWalkingWest2.png
+0
+Shadows\\Trees\\PlainTreeShadow.png
+Shadows\\Fences\\WoodenFenceOrientEastShadow.png
+Shadows\\Fences\\WoodenFenceOrientWestShadow.png
+Shadows\\Fences\\WoodenFenceCornerNorthEast.png
+Shadows\\Fences\\WoodenFenceCornerNorthWest.png
+Shadows\\Fences\\WoodenFenceCornerSouthEast.png
+Shadows\\Fences\\WoodenFenceCornerSouthWest.png
+Shadows\\Fences\\WoodenFenceOrientNorth&SouthShadow.png
