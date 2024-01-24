@@ -20,11 +20,11 @@ Tiles\\LongGrass\\tallGrass.png
 Objects\\Trees\\StandAloneTree.png
 Objects\\Fences\\WoodenFenceOrientEast.png
 Objects\\Fences\\WoodenFenceOrientWest.png
-Objects\\Fences\\WoodFenceCornerNorth&East.png
-Objects\\Fences\\WoodFenceCornerNorth&West.png
-Objects\\Fences\\WoodFenceCornerSouth&East.png
-Objects\\Fences\\WoodFenceCornerSouth&West.png
-Objects\\Fences\\WoodFenceOrientNorth&South.png
+Objects\\Fences\\WoodFenceCornerNorth_East.png
+Objects\\Fences\\WoodFenceCornerNorth_West.png
+Objects\\Fences\\WoodFenceCornerSouth_East.png
+Objects\\Fences\\WoodFenceCornerSouth_West.png
+Objects\\Fences\\WoodFenceOrientNorth_South.png
 Objects\\SmallHouse\\fullHouse.png
 0
 Sprites\\MainChar\\MainCharFront.png
@@ -47,4 +47,4 @@ Shadows\\Fences\\WoodenFenceCornerNorthEast.png
 Shadows\\Fences\\WoodenFenceCornerNorthWest.png
 Shadows\\Fences\\WoodenFenceCornerSouthEast.png
 Shadows\\Fences\\WoodenFenceCornerSouthWest.png
-Shadows\\Fences\\WoodenFenceOrientNorth&SouthShadow.png
+Shadows\\Fences\\WoodenFenceOrientNorth_SouthShadow.png
